@@ -1,0 +1,1 @@
+docker run -d --name exercise-1-10 -p 8080:8080 web-server
