@@ -1,0 +1,2 @@
+New-Item -ItemType File service.log
+docker run -d --name exercise-1-9 -v "${PWD}/service.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service
