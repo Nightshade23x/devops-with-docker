@@ -1,0 +1,7 @@
+## Exercise 3.2 - Cloud Deployment
+
+Application: https://docker-basics-samar-latest.onrender.com
+
+The application is deployed on Render via Docker.
+
+Github Actions automatically builds and pushes the Docker image to Docker Hub and triggers a new deployment on Render whenever changes are pushed to Github.
